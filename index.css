@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #343A40;
+    color: #ffd864;
+    text-shadow: 0px 0px 5px #cf7c39;
+    font-size: 40px;
+    margin:0;
+}
+
+header{
+    background-color: rgb(34, 36, 34);
+    padding:1% 5% 1%;
+    line-height: 10px;
+}
+
+#Menu{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+#Minuteur{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Chronometre{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Reveil{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Box
+{
+    border-radius: 30px;
+    background-color: #696f75b6;
+    width: 50%;
+    height: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#time{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+button{
+    cursor:pointer;
+}
+
+.BT_Selection{
+    padding:1%;
+    border-radius: 5%;
+    width: 7%;
+    background-color: #ffd864;
+    box-shadow: 0px 0px 5px #cf7c39;
+    border-style: hidden;
+    font-weight: bolder;
+}
+
+.BT_Minuteur{
+    padding:1% 0% 1%;
+    width: 5%;
+    border-radius: 50%;
+    background-color: #ddff64;
+    box-shadow: 0px 0px 5px #c8ff00;
+    border-style: hidden;
+    font-weight: bolder;
+}
+
+.BT_Start_Minuteur{
+    padding:0.5% 1% 0.5%;
+    border-radius: 5%;
+    width: 10%;
+    background-color: #ffd864;
+    border-style: hidden;
+    box-shadow: 0px 0px 5px #c8ff00;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.BT_Chronometre{
+    padding:0.5% 1% 0.5%;
+    border-radius: 5%;
+    width: 20%;
+    background-color: #ffd864;
+    border-style: hidden;
+    box-shadow: 0px 0px 5px #c8ff00;
+    font-weight: bolder;
+    font-size: 20px;
+}
